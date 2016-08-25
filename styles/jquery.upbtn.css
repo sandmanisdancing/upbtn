@@ -1,0 +1,17 @@
+.up-btn {
+	position: fixed;
+	right: 100px;
+	bottom: 100px;
+	transition: all .3s;
+	transform: translateY(200px);
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+.up-btn:hover {
+	/*opacity: .7;*/
+}
+
+.up-btn.active {
+	transform: translateY(0);
+}
