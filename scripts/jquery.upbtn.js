@@ -3,7 +3,9 @@
     var _this = this;
 
     var settings = $.extend({
-      text: 'Go to top'
+      text: 'Go to top',
+      easing: 'swing',
+      speed: 450
     }, options);
 
     if(!this.length) {
@@ -39,9 +41,15 @@
     }
 
     function scrollTo(coordY) {
+      var testKey = settings.easing in jQuery.easing;
+
+      if ( testKey == 0 ) {
+        settings.easing = 'swing';
+      }
+
       $('html, body').animate({
         scrollTop: coordY
-      }, 450);
+      }, settings.speed, settings.easing);
     }
   };
 })(jQuery);
