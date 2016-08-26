@@ -1,4 +1,4 @@
-# upbtn
+# upbtn / Scroll to top button
 
 A simple jQuery plugin that adds to page a button that can scroll you to top of it.
 
