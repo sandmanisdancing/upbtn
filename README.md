@@ -27,3 +27,7 @@ Option | Type | Default
 **text** | String | 'Go to top'
 **easing** | String | 'swing'
 **speed** | Number | 450
+
+## Browser support
+
+Tested in Firefox 47, Chrome 52, Internet Explorer 8+.
