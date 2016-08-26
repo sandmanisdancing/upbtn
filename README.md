@@ -19,3 +19,11 @@ $(document).ready(function() {
 ```
 
 You don't have to create HTML-element `.up-btn` in HTML-document before call, it will be created by plugin. If you need this button somewhere else but at the end of `body` element, you have to put in manually there.
+
+## Options
+
+Option | Type | Default
+-------|------|--------
+**text** | String | Go to top
+**easing** | String | swing
+**speed** | Number | 450
