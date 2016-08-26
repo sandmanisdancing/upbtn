@@ -14,7 +14,7 @@ Include jQuery and jquery.upbtn scripts and styles in HTML document:
 and then just:
 ```javascript
 $(document).ready(function() {
-  $('.up-btn').handleUptn();
+  $('.up-btn').handleUpbtn();
 });
 ```
 
@@ -24,6 +24,6 @@ You don't have to create HTML-element `.up-btn` in HTML-document before call, it
 
 Option | Type | Default
 -------|------|--------
-**text** | String | Go to top
-**easing** | String | swing
+**text** | String | 'Go to top'
+**easing** | String | 'swing'
 **speed** | Number | 450
